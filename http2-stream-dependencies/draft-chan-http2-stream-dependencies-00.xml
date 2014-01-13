@@ -85,7 +85,7 @@ Server push can improve performance by eliminating round trips, but it may degra
       </t>
     </section>
     <section anchor="protocol_changes" title="Protocol Changes">
-      <t>Dependencies are expressed using the existing optional priority field the HEADERS frames and in PRIORITY frames. To ensure clients and servers have consistent view of active streams, we propose the FIN_ACK frame. The section concludes with a set of invariants that clients and servers must maintain when using these frames.</t>
+      <t>Dependencies are expressed using the existing optional priority field the HEADERS frames and in PRIORITY frames. To ensure clients and servers have consistent view of active streams, we propose the END_STREAM_ACK frame. The section concludes with a set of invariants that clients and servers must maintain when using these frames.</t>
 
       <section anchor="headers" title="HEADERS frame">
         <figure title="HEADERS Frame Payload">
